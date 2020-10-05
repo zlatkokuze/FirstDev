@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  width:90%;
+  align-items: center;
+  margin: auto;
+}
+.masthead h1 {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: Times New Roman;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.message {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: x-small;
+  font-weight: bolder;
+  background-color: #000;
+  color: #fff;
+  margin: auto;
+}
+
+.navbar-toggler{
+  background-color: rgb(55, 64, 64);
+  width: 120px;
+  font-size: medium;
+  margin-top: 3px;
+}
+.navbar-light .navbar-toggler {
+  color: #fff;
+}
+
+.yutso {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding-top: 14px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Times New Roman"
+}
+.i.far.fa-registered:before {
+ width: 12px;
+ height: 12px;
+}
+.fa-registered:before {
+   width: 12px;
+   height: 12px;
+}
+   @media  {
+ .navbar-expand-md .navbar-toggler {
+  display: -webkit-box;
+}
+}
+
+.slidetext {
+  width: 30%;
+  height: 100%;
+  color: #fff;
+  font-size: small;
+  font-weight: bolder;
+  position: absolute;
+  opacity: 0.9;
+  z-index: 8;
+  padding-top: 250px;
+  padding-left: 20px;
+}
+.slidetext a {
+  color: #fff;
+}
+.bi.bi-arrow-right {
+  font-weight: bolder;
+}
+.carousel.slide {
+  margin-bottom: 100px;
+}
