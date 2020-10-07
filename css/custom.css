@@ -12,10 +12,14 @@ body {
   margin: auto;
   margin-bottom: 20px;
 }
+a {
+  font-weight: bolder;
+}
 .masthead {
   margin-top: 20px;
 }
 .container {
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 .carousel.slide {
@@ -59,8 +63,6 @@ body {
   width: 30%;
   height: 100%;
   color: #fff;
-  font-size: small;
-  font-weight: bolder;
   position: absolute;
   opacity: 0.9;
   z-index: 8;
@@ -78,11 +80,13 @@ body {
   background-color: #000;
   height: 300px;
 }
+.products a {
+  color: #fff;
+}
 .products-body {
-  width: 60%;
+  width: 70%;
   height: 100%;
   color: #fff;
-  font-size: small;
   position: absolute;
   opacity: 0.9;
   z-index: 8;
@@ -94,7 +98,6 @@ body {
 }
 .products img {
   padding-top: 35px;
-  padding-left: 20px;
   align-items: center;
   margin: auto;
 }
@@ -103,5 +106,40 @@ body {
 }
 .molded-body {
   padding-left: 20px;
-  padding-top: 0px;
 }
+.molded p {
+  padding-left: 13%;
+  padding-right: 13%;
+}
+.soap-body {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+.soap img {
+  padding-left: 20px;
+}
+.discover {
+  width: 60%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.discover a {
+color: #000;
+}
+.shipping img {
+  align-content: center;
+}
+.shipping p {
+  color: rgb(150, 150, 150)
+}
+.features {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.features p {
+  width: 80%;
+}
+.features a {
+  color: #000;
+  }
